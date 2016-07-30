@@ -1,0 +1,142 @@
+# vsim -c -novopt port_imp 
+# //  Questa Sim
+# //  Version 10.0b win32 May  5 2011
+# //
+# //  Copyright 1991-2011 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Refreshing C:\Users\Naveen\Desktop\sv_works\tlmPort\work.port_imp
+# Refreshing C:\Users\Naveen\Desktop\sv_works\tlmPort\work.port_imp_sv_unit
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.port_imp_sv_unit
+# Loading work.port_imp
+# Loading C:\questasim_10.0b\uvm-1.0p1\win32\uvm_dpi.dll
+#  
+# ** Error: (vsim-4001) Incorrect number of arguments.
+# Usage: run [<timesteps> [<time_units>]] | -all | -continue | -next | -step | -over | -out | -init | -final
+# ----------------------------------------------------------------
+# UVM-1.0p1 
+# (C) 2007-2011 Mentor Graphics Corporation
+# (C) 2007-2011 Cadence Design Systems, Inc.
+# (C) 2006-2011 Synopsys, Inc.
+# ----------------------------------------------------------------
+# UVM_INFO @ 0: reporter [RNTST] Running test ...
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @496 
+#   mode  rd_wr     32    WRITE
+#   addr  integral  8     'd90 
+#   data  integral  8     'd102
+# -----------------------------
+# At consumer: WRITE transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @500 
+#   mode  rd_wr     32    READ 
+#   addr  integral  8     'd67 
+#   data  integral  8     'd109
+# -----------------------------
+# At consumer: Read transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @504 
+#   mode  rd_wr     32    WRITE
+#   addr  integral  8     'd55 
+#   data  integral  8     'd124
+# -----------------------------
+# At consumer: WRITE transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @508 
+#   mode  rd_wr     32    READ 
+#   addr  integral  8     'd55 
+#   data  integral  8     'd123
+# -----------------------------
+# At consumer: Read transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @512 
+#   mode  rd_wr     32    READ 
+#   addr  integral  8     'd29 
+#   data  integral  8     'd119
+# -----------------------------
+# At consumer: Read transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @516 
+#   mode  rd_wr     32    WRITE
+#   addr  integral  8     'd53 
+#   data  integral  8     'd109
+# -----------------------------
+# At consumer: WRITE transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @520 
+#   mode  rd_wr     32    WRITE
+#   addr  integral  8     'd44 
+#   data  integral  8     'd115
+# -----------------------------
+# At consumer: WRITE transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @524 
+#   mode  rd_wr     32    WRITE
+#   addr  integral  8     'd76 
+#   data  integral  8     'd109
+# -----------------------------
+# At consumer: WRITE transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @528 
+#   mode  rd_wr     32    WRITE
+#   addr  integral  8     'd17 
+#   data  integral  8     'd102
+# -----------------------------
+# At consumer: WRITE transaction
+#  Printing T at producer
+# -----------------------------
+# Name    Type      Size  Value
+# -----------------------------
+# t       txn       -     @532 
+#   mode  rd_wr     32    READ 
+#   addr  integral  8     'd79 
+#   data  integral  8     'd116
+# -----------------------------
+# At consumer: Read transaction
+# UVM_INFO verilog_src/uvm-1.0p1/src/base/uvm_objection.svh(1116) @ 1000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :    2
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [RNTST]     1
+# [TEST_DONE]     1
+# ** Note: $finish    : C:/questasim_10.0b/win32/../verilog_src/uvm-1.0p1/src/base/uvm_root.svh(392)
+#    Time: 1 us  Iteration: 44  Instance: /port_imp
